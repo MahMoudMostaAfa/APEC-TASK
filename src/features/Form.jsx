@@ -86,7 +86,7 @@ function Form({ currentStep, setCurrentStep }) {
     <FormProvider {...methods}>
       <form
         onSubmit={methods.handleSubmit(onSubmit)}
-        className="border bg-[#a5a2a256]  rounded-md p-10 border-white"
+        className="border bg-[#a5a2a256]  rounded-md  p-4 lg:p-10 border-white"
       >
         {renderStep()}
         <div className="flex items-center justify-between mt-10">
